@@ -1,0 +1,25 @@
+# --- Identity ---
+id: "7625054e-da7a-4da7-be70-103e166b5f5e"
+name: "input-gap-check"
+display_name: "Input Gap Check"
+description: "Checks whether enough material exists to run the workflow, flags missing inputs and weak assumptions"
+version: "1.0.0"
+engine: ">=0.1.0"
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+licence: "MIT"
+repository: "https://github.com/skrpts/hub-shared-input-gap-check"
+category: "shared"
+tags:
+  - "shared"
+  - "skill"
+contents:
+  skills: 1
+  prompts: 0
+  workflows: 0
+  services: 0
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 1
