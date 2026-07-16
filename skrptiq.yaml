@@ -3,7 +3,7 @@ id: "a20ad2f8-a4ca-4c9f-a39b-5674f0773881"
 name: "input-gap-check"
 display_name: "Input Gap Check"
 description: "Checks whether enough material exists to run the workflow, flags missing inputs and weak assumptions"
-version: "1.0.2"
+version: "1.0.3"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -25,3 +25,17 @@ contents:
   documents: 0
   assets: 0
   total: 1
+
+security:
+  status: "pass"
+  scanned_at: "2026-07-16T14:48:56.967Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: []
+    permissions: []
+    data_handling: []
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/input-gap-check/security"
