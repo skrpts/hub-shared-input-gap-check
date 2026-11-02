@@ -3,7 +3,7 @@ id: "a20ad2f8-a4ca-4c9f-a39b-5674f0773881"
 name: "input-gap-check"
 display_name: "Input Gap Check"
 description: "Checks whether enough material exists to run the workflow, flags missing inputs and weak assumptions"
-version: "1.0.3"
+version: "1.0.4"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -28,7 +28,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-16T14:48:56.967Z"
+  scanned_at: "2026-11-02T01:14:10.088Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"

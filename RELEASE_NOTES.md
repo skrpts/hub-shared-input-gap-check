@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.0.4
+GH#1144 part 1 — adds a `context_params` block declaring the `source` slot ("Inputs Provided") with `supplied_by: input`, at the SKILL site the engine's GH#1139 shape gate reads. The material being checked IS the run's input, not a step output. All six consumers already bind `from_input`, so this refuses nothing today — it fixes the shape in place before a consumer guesses otherwise.
+
 ## v1.0.3
 GH#845 — republish with American English (en-US) content, completing the source-only GH#805 flip that never reached the Hub. Copy only — no functional or behaviour change.
 

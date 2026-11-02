@@ -4,6 +4,12 @@ id: input-gap-check
 title: Input Gap Check
 description: "Checks whether enough material exists to run the workflow, flags missing inputs and weak assumptions"
 tags: [Production, Quality]
+context_params:
+  source:
+    label: "Inputs Provided"
+    description: "What was supplied for this run, so gaps in it can be reported. Supplied by the person running the skrpt — the material being checked IS the input, not a step output."
+    supplied_by: input
+    required: true
 
 ---
 
